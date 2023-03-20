@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FAVICON -->
+    <link rel="icon" href="img/favicon-512x512.png">
+
+    <!-- TITLE -->
+    <title>Meal App | Sonali Soni</title>
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/14097a442a.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- FULL BODY DIV -->
+    <div id="full-body">
+
+        <!-- HEADER SECTION -->
+        <div id="header" class="container-fulied">
+
+            <!-- NAVBAR -->
+            <div id="nav" class="navbar fixed-top" style="background-color: #DDFFE7;">
+
+                <div class="container-fluid">
+
+                    <!-- BRAND NAME & LOGO -->
+                    <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="logo" class="meal-img"
+                            style="height: 30px; width: 30px;"></a>
+                    <a class="navbar-brand custom-style" href="index.html">Meal App</a>
+
+                    <!-- TOGGLE BUTTON -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" onclick="showFavMealList()">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- OFFCANVAS FAVOURITES -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header"
+                            style="background-color: rgb(17, 101, 52, 0.9); border-bottom: 1px solid #116534;">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #DDFFE7;">
+                                Favourites
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <!-- SHOWS FAV MEALS -->
+                        <div id="favourites-body" class="offcanvas-body d-flex justify-content-center flex-wrap">
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- HEADING -->
+            <div id="heading" class="container text-center about-text">
+                <h1 class="display-5 heading-text">About Us</h1>
+                <p class="about-para">
+                    At our website, we're passionate about food and believe that good meals can make a real difference
+                    in your mood. That's why we offer a wide range of delicious meal recipes, detailed descriptions,
+                    ingredients needed, and video tutorials to help you make delicious meals at home. With our
+                    user-friendly search function, powered by the Meal DB API, you can easily find the perfect meal for
+                    your taste preferences and dietary requirements. <br> <br>
+
+                    We're committed to providing high-quality content and a great user experience, whether you're a
+                    seasoned chef or just starting out in the kitchen. Our goal is to help you make delicious meals that
+                    are easy and fun to prepare, and to inspire you to explore new cuisines and cooking techniques.
+                    We're always updating our database with new and exciting recipes, so be sure to check back often for
+                    fresh meal ideas. If you have any feedback or suggestions, please don't hesitate to contact us.
+                    Thanks for visiting, and happy cooking!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- EXTERNAL JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
