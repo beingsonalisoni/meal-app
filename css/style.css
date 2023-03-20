@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #116543;
+    background-image: url('../img/banner.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-y;
+}
+
+
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #DDFFE7;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(7, 101, 48, 0.6);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #116530;
+}
+
+
+
+/* ABOUT SECTION */
+.about-text {
+    background-color: rgba(221, 255, 231, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.about-para {
+    padding: 10px;
+    /* text-align: justify; */
+}
+
+
+
+/* HEADER HEADING SECTION */
+#heading {
+    margin-top: 100px;
+}
+
+.heading-text {
+    font-weight: 500;
+    text-shadow: 0 0 0.4rem #ade1bd;
+}
+
+.p-text {
+    margin-top: 20px;
+}
+
+
+
+/* NAVBAR */
+#nav {
+    box-shadow: rgba(255, 255, 255, 0.938) 0px 50px 100px -20px, rgba(7, 101, 48, 0.8) 0px 30px 60px -30px, rgba(7, 101, 48, 0.8) 0px -2px 6px 0px inset;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(7, 101, 48, 0.5);
+}
+
+.navbar-toggler:focus {
+    color: rgba(255, 193, 7, 0.5);
+}
+
+.custom-style {
+    color: rgba(7, 101, 48, 1);
+    font-weight: 500;
+}
+
+.custom-style:hover {
+    color: rgba(7, 101, 48, 1)
+}
+
+
+
+/* SEARCH BAR */
+#search-bar {
+    max-width: 600px;
+}
+
+#my-search:focus {
+    outline: none;
+    border-color: rgba(7, 101, 48, 0.6);
+    box-shadow: 0 0 10px rgba(7, 101, 48, 0.8);
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: #116543;
+}
+
+
+
+/* MEAL CARD */
+#card {
+    background-color: rgba(7, 101, 48, 0.9);
+    padding: 10px;
+    color: #DDFFE7;
+    box-shadow: rgba(7, 101, 48, 0.5) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 10PX;
+}
+
+#card button {
+    color: #DDFFE7;
+}
+
+#card button:hover {
+    color: #DDFFE7;
+    background-color: rgba(255, 193, 7, 1);
+}
+
+
+/* MEAL DETAILS */
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(221, 255, 231, 0.9);
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: justify;
+}
+
+.yt-btn {
+    background-color: rgba(7, 101, 48, 1);
+    color: #DDFFE7;
+}
+
+.yt-btn:hover {
+    background-color: rgba(255, 193, 7, 1);
+    color: rgba(7, 101, 48, 1);
+}
+
+
+
+/* favourites offcanvus */
+#favourites-body {
+    background-color: rgba(221, 255, 231, 0.9);
+}
+
+/* FOOTER */
+footer ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+footer li:last-child {
+    margin-right: 0;
+}
+
+footer a {
+    text-decoration: none;
+    /* color: #ffc107; */
+    color: #116530;
+    border-bottom: none;
+    transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: rgb(243, 102, 86);
+}
